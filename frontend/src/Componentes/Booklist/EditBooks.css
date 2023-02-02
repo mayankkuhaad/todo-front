@@ -1,0 +1,28 @@
+.EditBooks{
+    width: 60vw;
+    height: 90vh;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(49, 5, 68);
+}
+
+.HeadingEditBook{
+    color: white;
+    font-weight: 600;
+    font-size: 42px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+div label {
+    color:white;
+    width: 40%;
+    font-weight: 500;
+    text-align:left;
+    margin: auto;
+}

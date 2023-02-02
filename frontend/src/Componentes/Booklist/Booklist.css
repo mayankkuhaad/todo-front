@@ -1,0 +1,83 @@
+.Booklist{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(49, 5, 68);
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.Heading{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 72px;
+}
+.ButtonBox{
+    width: 100%;
+    display: inline-block;
+}
+
+.Booklist a{
+    display: inline-block;
+    width: fit-content;
+    margin: auto ;
+}
+
+.logOut{
+    float: right;
+    width: 120px;
+    height: 40px; 
+    margin: 5px auto;
+    background: rgb(96, 35, 3);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 21px;
+    position: relative;
+    text-align: center;
+}
+.AddBook{
+    float: right;
+    width: 200px;
+    height: 40px; 
+    margin: 5px auto;
+    background: rgb(96, 35, 3);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 21px;
+    position: relative;
+    text-align: center;
+}
+.BooksContainer{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.BooksContainer .Book {
+    width :20%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 10px 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(220, 145, 245);
+}
+.BooksContainer .Book .Imgboog{
+    width: 100%;
+    height: 300px;
+    padding: 32px 32px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: rgb(125, 238, 199);
+    cursor: pointer;
+}
+
+.BooksContainer .Book .Details{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 400;
+}
+

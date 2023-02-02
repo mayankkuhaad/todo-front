@@ -1,0 +1,45 @@
+.Addbook{
+    width: 50vw;
+    height: 90vh;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: rgb(49, 5, 68);
+    display: flex;
+    flex-direction: column;
+}
+
+.ShowBooklist{
+    width: 160px;
+    height: 40px;
+    margin-right: 5%;
+    background: rgb(119, 239, 14);
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 21px;
+    position: relative;
+    float: left;
+}
+
+.Title, .ISBN, .Author, .Discribe, .Published, .Publisher{
+    width: 40%;
+    margin: 10px auto;
+    height: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button[type = submit]{
+    width: 40%;
+    margin: 30px auto;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    background: lightseagreen;
+    cursor: pointer;
+}
